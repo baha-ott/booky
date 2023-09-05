@@ -19,7 +19,6 @@ export default function HomePage({}) {
     isLoading,
     isSuccess,
     isError,
-    error,
   } = useGetBooksBySearchQuery(search);
   // if the search is empty string the response will be all books
   // started from page 1
@@ -37,7 +36,7 @@ export default function HomePage({}) {
       </>
     );
   } else if (isError) {
-    content = <h1>{error as string}</h1>;
+    throw new Error("An error occured while fetching data");
   }
   return (
     <section>
