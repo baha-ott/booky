@@ -23,12 +23,12 @@ export default function HomePage({}) {
   // if the search is empty string the response will be all books
   // started from page 1
 
-  let content;
+  let booksRender;
 
   if (isLoading) {
-    content = <h1>Loading ....</h1>;
+    booksRender = <h1>Loading ....</h1>;
   } else if (isSuccess) {
-    content = (
+    booksRender = (
       <>
         {books?.length > 0 && <HomeHero books={books.slice(0, 2)} />}
         {books?.length > 0 && <BooksSection books={books} />}
@@ -36,13 +36,13 @@ export default function HomePage({}) {
       </>
     );
   } else if (isError) {
-    throw new Error("An error occured while fetching data");
+    throw new Error("An error occured while fetching data for the home page");
   }
   return (
     <section>
       <Container>
         <HeadingSecondary title="Checkout our latest books 🔥" />
-        {content}
+        {booksRender}
       </Container>
     </section>
   );
