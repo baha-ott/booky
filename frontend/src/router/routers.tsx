@@ -11,11 +11,13 @@ import FavoritesPage from "../pages/favorites/page";
 import AddBookPage from "../pages/add-book/page";
 import BookPage from "../pages/book-page/page";
 import EditBookPage from "../pages/edit-book/page";
+import RootErrorBoundary from "../components/RootErrorBoundary";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
+    errorElement: <RootErrorBoundary />,
     children: [
       {
         index: true,
