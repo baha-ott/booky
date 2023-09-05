@@ -1,3 +1,4 @@
+// books component
 import BookCard from "./BookCard";
 
 type Props = {

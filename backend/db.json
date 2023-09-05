@@ -1,211 +1,43 @@
 {
   "books": [
     {
-      "id": 1,
-      "authorId": 301,
-      "isbn": "3a8e0071-e098-4f9d-af08-db4b5b1b9c21",
-      "title": "juggernaut edited",
-      "thumbnail": "https://loremflickr.com/640/480?lock=7120010575085568",
-      "description": "Nam blanditiis voluptatem odit sequi harum quidem assumenda dolore deleniti. Nemo illum porro qui est suscipit. At fuga animi provident sint laudantium totam.\nAlias quis magnam modi. Sapiente temporibus recusandae minima. Nam reiciendis laudantium ab nulla atque ut sed.\nQuas debitis dolor aspernatur. Nisi fuga reiciendis sit reprehenderit nemo. Qui qui animi quia doloribus optio ea corporis praesentium.",
-      "publisher": "O'Hara Inc",
-      "tags": [
-        "vandalise"
-      ],
-      "favorite": false
-    },
-    {
-      "id": 2,
-      "title": "playground",
-      "authorId": 302,
-      "thumbnail": "https://picsum.photos/seed/nTxTf/640/480",
-      "description": "Ullam porro debitis cupiditate expedita soluta dicta id. Voluptate magni deleniti hic eum officia. Optio magnam quis libero quae.\nQuis doloremque provident. Illo tenetur unde voluptatum ad tempore. Aspernatur eum sit dolore quae.\nEum quos eaque harum tempore et vitae. Ipsam aut facilis. Id porro sit eaque distinctio corporis rem sint architecto.",
-      "publisher": "Baumbach, Schamberger and Braun",
-      "isbn": "d133317b-13e2-4401-9173-f4a1d957ea3f",
-      "favorite": false,
-      "tags": [
-        "modulo"
-      ]
-    },
-    {
-      "id": 4,
-      "title": "swordfight",
-      "authorId": 304,
-      "thumbnail": "https://loremflickr.com/640/480?lock=5537814819110912",
-      "description": "Possimus magnam consequatur. Reprehenderit a iusto delectus id quis occaecati tenetur. Earum vitae iste assumenda inventore deserunt non iste ullam.\nSuscipit rerum odio sapiente aliquid quis iure. Velit vel repellendus tempora exercitationem quia. Qui dignissimos eos nisi sapiente.\nOdio animi corrupti explicabo error adipisci animi. Sapiente quis commodi maiores exercitationem ex. Voluptatem corrupti fugit quibusdam.",
-      "publisher": "Monahan and Sons",
-      "isbn": "da1bb4fa-5ca5-4c4c-9ee8-c93725e55918",
-      "favorite": false,
-      "tags": [
-        "made-up"
-      ]
-    },
-    {
-      "id": 5,
-      "title": "appearance",
-      "authorId": 305,
-      "thumbnail": "https://loremflickr.com/640/480?lock=3859059822297088",
-      "description": "Error iste recusandae perferendis rerum numquam consequatur. Minima cupiditate aut temporibus officia at optio placeat tenetur aperiam. Aliquid at provident velit.\nIllo ut at quaerat sed modi. Enim commodi nesciunt laboriosam iste nihil laborum non laudantium. Similique dignissimos molestias corrupti.\nDeserunt pariatur dicta aliquid harum molestias sequi harum. Molestiae possimus quia rem dolorem. Officia consequuntur velit ratione quasi qui sapiente quos.",
-      "publisher": "Parisian, Witting and Adams",
-      "isbn": "925a041f-861d-4547-a4a6-c3e996a37c93",
-      "favorite": true,
-      "tags": [
-        "pfft",
-        "toward",
-        "not"
-      ]
-    },
-    {
-      "id": 6,
-      "title": "difference",
-      "authorId": 306,
-      "thumbnail": "https://loremflickr.com/640/480?lock=1326358586195968",
-      "description": "Quos quam velit voluptas accusamus at inventore ut. Voluptates inventore cumque nihil aliquam adipisci fugiat ratione impedit harum. Nam mollitia perferendis unde cumque eaque.\nSed nobis harum ad quo labore. Voluptatum deserunt adipisci consequatur laboriosam dicta illum. Consequuntur ullam amet excepturi facilis alias nobis inventore ex.\nAtque nobis inventore maxime temporibus autem autem perferendis sit. Repellendus eos quae quasi deserunt fugiat cumque. Culpa ullam doloribus eaque provident.",
-      "publisher": "Collier, Reynolds and Borer",
-      "isbn": "0eeba439-1649-44b1-bfbf-281563925564",
-      "favorite": false,
-      "tags": [
-        "sadly"
-      ]
-    },
-    {
-      "id": 7,
-      "title": "breakpoint",
-      "authorId": 307,
-      "thumbnail": "https://loremflickr.com/640/480?lock=6189263951495168",
-      "description": "Exercitationem quaerat sed quod vero cum ratione fugiat. Soluta culpa repellendus fugiat. Ad eum officiis saepe incidunt natus totam.\nIpsum dignissimos quasi voluptatum sunt illum perspiciatis. Et eius temporibus sunt eaque praesentium consequuntur illo vitae sunt. Eveniet doloremque voluptas architecto facere nobis optio est magnam tenetur.\nDeleniti veniam repellat nemo nulla temporibus voluptatum et. Maxime beatae possimus incidunt tenetur nam cumque. Maiores dolorum magni corrupti expedita expedita architecto voluptates ab.",
-      "publisher": "Hoeger - Hoeger",
-      "isbn": "efe58ba8-2015-4d86-833d-8b436529d0a8",
-      "favorite": true,
-      "tags": [
-        "readily",
-        "sometimes"
-      ]
-    },
-    {
-      "id": 8,
-      "title": "discretion",
-      "authorId": 308,
-      "thumbnail": "https://picsum.photos/seed/e3fLfd/640/480",
-      "description": "Maxime maiores enim quia. Quam iusto architecto quaerat ipsa cupiditate aut commodi eaque. Voluptatum quo eius nisi saepe.\nProvident fugiat voluptate fugit libero. Deserunt dolorem quis quod eligendi fugit reprehenderit voluptate cupiditate ipsa. Minima nemo error voluptas quaerat cupiditate quae soluta temporibus dolor.\nVero accusantium consequatur sapiente laborum nostrum consectetur iure dignissimos neque. Excepturi nobis omnis natus sint laborum dolorem omnis quisquam doloribus. Perferendis eligendi eligendi molestias maiores recusandae aliquid.",
-      "publisher": "Ratke Group",
-      "isbn": "ed1e2c58-cd0e-4ca2-bf99-0595ecf760fc",
-      "favorite": true,
-      "tags": [
-        "endorsement"
-      ]
-    },
-    {
-      "id": 9,
-      "title": "creativity",
-      "authorId": 309,
-      "thumbnail": "https://loremflickr.com/640/480?lock=6358052225679360",
-      "description": "Fugit iusto nam ea temporibus impedit. Cum perspiciatis in laboriosam error nam ipsam aliquam. Sit possimus quas sint id laboriosam esse.\nPlaceat fuga voluptate laborum voluptates. Incidunt repellendus soluta incidunt atque debitis porro voluptate labore animi. Mollitia facilis corrupti.\nCum ipsum praesentium alias. Laboriosam temporibus placeat harum molestias rerum sequi. Amet vero ipsum vero autem.",
-      "publisher": "Kutch - Jaskolski",
-      "isbn": "823cb993-08ec-4c79-9b49-5d1137fc898f",
-      "favorite": true,
-      "tags": [
-        "gah",
-        "sharpen"
-      ]
-    },
-    {
-      "id": 10,
-      "title": "litigation",
-      "authorId": 310,
-      "thumbnail": "https://loremflickr.com/640/480?lock=6016013992722432",
-      "description": "Voluptas animi ab adipisci nihil fugit magnam error pariatur molestias. Enim iste ut recusandae. Sapiente aut sequi.\nRecusandae dolore commodi blanditiis. Alias dolores ad. Ut perspiciatis quod est tenetur natus.\nOmnis illum voluptates. Atque ratione id eligendi quasi blanditiis asperiores iusto deleniti. Libero nesciunt earum ratione at qui cupiditate.",
-      "publisher": "Hoeger - Wisoky",
-      "isbn": "9bf3a133-6c1e-419b-ad7d-e61687631e66",
-      "favorite": false,
-      "tags": [
-        "sans",
-        "tonify"
-      ]
-    },
-    {
-      "id": 11,
-      "title": "ambassador",
-      "authorId": 311,
-      "thumbnail": "https://loremflickr.com/640/480?lock=7861328498655232",
-      "description": "Debitis est natus explicabo maxime sint labore sit. Quos autem necessitatibus veritatis officia corrupti doloremque similique. Illo repellendus voluptates dolor exercitationem sint sint iure.\nIpsam cumque ullam aliquam magnam quaerat sapiente aperiam vitae vel. Officiis aspernatur quae. Magni eveniet maxime eum est voluptate totam ducimus illo.\nOfficiis laborum at aspernatur quo. Neque illo aliquam itaque temporibus. Mollitia ullam dolore facere quisquam laboriosam harum facere amet.",
-      "publisher": "Dicki - Runolfsson",
-      "isbn": "8028c042-f5a7-4e61-a7d0-14886c22e89c",
-      "favorite": true,
-      "tags": [
-        "divine"
-      ]
-    },
-    {
-      "id": 12,
-      "title": "revolution",
-      "authorId": 312,
-      "thumbnail": "https://picsum.photos/seed/11iu8Pf/640/480",
-      "description": "Aliquid repellat impedit cum dolorem totam impedit quisquam quo. Unde ipsam voluptatem quod officia quod totam quis. Debitis adipisci sunt harum.\nIste eius laudantium ab. Ratione dicta eligendi labore. Accusantium qui quia molestias repellendus recusandae error consectetur et.\nTenetur voluptate fugiat eaque alias error nulla adipisci dolores sequi. A quam voluptate culpa. Repellat mollitia distinctio ea inventore tempora quos dolorum quaerat.",
-      "publisher": "Kovacek - Kassulke",
-      "isbn": "d795ded8-18b7-43d4-aca3-41b128d71b9a",
-      "favorite": true,
-      "tags": [
-        "blah"
-      ]
-    },
-    {
-      "id": 13,
-      "title": "waterwheel",
-      "authorId": 313,
-      "thumbnail": "https://picsum.photos/seed/sQOBpRi/640/480",
-      "description": "Deserunt voluptate quidem enim consectetur optio excepturi repellat id dicta. Dicta fugiat ex quos dicta consequatur. Asperiores quam eaque odit.\nQuia nemo ullam nam natus ut numquam cum. Soluta unde iure. Libero vitae in veniam.\nQui dolorum nesciunt illo explicabo tenetur est repellendus reiciendis accusamus. Mollitia sunt delectus iusto eligendi doloribus amet magni omnis dolor. Ipsa laudantium autem quibusdam doloremque.",
-      "publisher": "Spencer and Sons",
-      "isbn": "82b33a89-e1c7-4c83-9060-2a97316f9021",
-      "favorite": true,
-      "tags": [
-        "instead",
-        "except"
-      ]
-    },
-    {
       "id": 14,
       "title": "skyscraper",
-      "authorId": 314,
-      "thumbnail": "https://loremflickr.com/640/480?lock=6743525087510528",
       "description": "Quasi occaecati repudiandae architecto illo repellat culpa. Recusandae minima fugiat reiciendis repellat nam voluptatem. Commodi facere corrupti.\nQuos mollitia ab incidunt iure voluptates quos odit consequuntur. Ipsa consequatur sed laborum labore. Repellendus magni minus odio.\nInventore esse voluptatem eius dolores excepturi ipsum sapiente repudiandae sed. Perferendis ipsa facere unde. Temporibus dignissimos laudantium quasi fuga itaque excepturi.",
       "publisher": "Torphy Inc",
-      "isbn": "396f80f1-ab54-425f-aada-6422d40535bf",
-      "favorite": false,
+      "thumbnail": "https://loremflickr.com/640/480?lock=6743525087510528",
       "tags": [
         "pro",
         "verbally",
         "positively"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": 15,
       "title": "initialise",
-      "authorId": 315,
-      "thumbnail": "https://loremflickr.com/640/480?lock=2888094340612096",
       "description": "Velit eum consequatur saepe dolorem totam earum maiores. Possimus officiis unde in libero doloribus. Nesciunt eligendi rem voluptatum.\nMollitia tenetur magni quam suscipit cum. Necessitatibus nulla quasi similique ex. Quas voluptas vitae unde adipisci distinctio molestiae dolores.\nSint ex eos quasi cumque cumque. Doloremque dolor nesciunt totam enim sequi. Delectus repellat aliquam deserunt doloremque ad minima ex quos.",
       "publisher": "Cassin LLC",
-      "isbn": "e263c37f-62b8-4ef2-9423-b59db95928d9",
-      "favorite": false,
+      "thumbnail": "https://loremflickr.com/640/480?lock=2888094340612096",
       "tags": [
         "bemoan",
         "sleepy",
         "finally"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": 16,
       "title": "revolution",
-      "authorId": 316,
-      "thumbnail": "https://loremflickr.com/640/480?lock=351452287467520",
       "description": "Aliquam velit libero sit. Numquam facere maiores fugiat deserunt. Quaerat delectus a animi in occaecati id ipsam saepe magni.\nCorrupti repellendus voluptatum fugit impedit. Harum occaecati veritatis iste officiis dignissimos. Illo commodi cupiditate facilis at.\nMolestias perferendis deleniti perferendis officia molestiae doloribus. Tempore dignissimos voluptatibus iste amet sapiente deserunt maiores. Tempora fuga modi.",
       "publisher": "McDermott, Greenholt and Schuppe",
-      "isbn": "a4a2a06c-0497-4264-824a-ed79b82fe8a8",
-      "favorite": true,
+      "thumbnail": "https://loremflickr.com/640/480?lock=351452287467520",
       "tags": [
         "amusing",
         "phew",
         "yuck"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": 17,
@@ -223,55 +55,47 @@
     {
       "id": 18,
       "title": "corruption",
-      "authorId": 318,
-      "thumbnail": "https://loremflickr.com/640/480?lock=626041169117184",
       "description": "Porro a tenetur et quae repellendus quibusdam doloremque assumenda. Consequatur recusandae ut voluptate rerum alias ad nobis corrupti reiciendis. Officia a numquam.\nDucimus ullam veniam maxime ad adipisci maxime facere. Maiores voluptate expedita eaque. Aliquid tenetur similique sed delectus perferendis.\nQuo dolores odit voluptatibus dolorem tenetur nesciunt. Ipsam nostrum itaque ad quidem esse reprehenderit porro tempore id. Veritatis ipsa earum.",
       "publisher": "Upton and Sons",
-      "isbn": "ba8a4a99-cbf2-4c83-b45f-2f6823958927",
-      "favorite": false,
+      "thumbnail": "https://loremflickr.com/640/480?lock=626041169117184",
       "tags": [
         "jaunty"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": 19,
       "title": "republican",
-      "authorId": 319,
-      "thumbnail": "https://loremflickr.com/640/480?lock=5521784157765632",
       "description": "Minus dolorem consequatur soluta praesentium impedit. Necessitatibus maxime explicabo quos ipsum ea. Facere architecto maxime tenetur recusandae aspernatur sint eius nam eius.\nMolestiae est exercitationem. Praesentium adipisci quos sed necessitatibus necessitatibus asperiores dolores. Esse quos dolor pariatur dignissimos architecto quam at qui fugit.\nOfficia occaecati quidem. Itaque fuga eum. Esse necessitatibus aliquam ut molestias aut quas eligendi.",
       "publisher": "Will and Sons",
-      "isbn": "b7a18537-f0e1-4c30-a110-43a7030d11ca",
-      "favorite": true,
+      "thumbnail": "https://loremflickr.com/640/480?lock=5521784157765632",
       "tags": [
         "uh-huh"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": 20,
       "title": "rethinking",
-      "authorId": 320,
-      "thumbnail": "https://loremflickr.com/640/480?lock=6613096556658688",
       "description": "Error consequuntur placeat repudiandae. Voluptatum dolorum accusantium quod fuga suscipit mollitia perspiciatis vel. Debitis dignissimos beatae.\nOdio quos doloremque sed. Quisquam cum optio odit. Ab sequi velit repellendus atque nam eos culpa.\nEx sequi ducimus iure amet. Rem neque quo in. Ex quos eos atque praesentium molestias impedit exercitationem sequi est.",
       "publisher": "Lebsack, Langosh and Aufderhar",
-      "isbn": "4b5030c8-f4a0-45c2-b812-50172df6ea04",
-      "favorite": true,
+      "thumbnail": "https://loremflickr.com/640/480?lock=6613096556658688",
       "tags": [
         "insulate",
         "helplessly"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": 21,
       "title": "nightlight",
-      "authorId": 321,
-      "thumbnail": "https://picsum.photos/seed/P9iXKAl9/640/480",
       "description": "Nobis corrupti soluta quia. Ipsum voluptatem natus voluptas quasi aperiam quas sapiente. Nesciunt ducimus corrupti.\nDelectus error suscipit assumenda. Ipsum odit rem ipsam quibusdam id. Sapiente magnam culpa pariatur pariatur accusamus et.\nAssumenda ex atque. Corrupti amet velit doloribus. Sequi reprehenderit aperiam deleniti.",
       "publisher": "Rodriguez Group",
-      "isbn": "cc0bd5cc-87cb-4622-8fa7-ded2bacc9cc8",
-      "favorite": false,
+      "thumbnail": "https://picsum.photos/seed/P9iXKAl9/640/480",
       "tags": [
         "owlishly"
-      ]
+      ],
+      "favorite": true
     },
     {
       "id": 22,
@@ -332,16 +156,14 @@
     {
       "id": 26,
       "title": "chandelier",
-      "authorId": 326,
-      "thumbnail": "https://picsum.photos/seed/LUm7ksl/640/480",
       "description": "Quod eum praesentium minima. Consectetur aperiam voluptates doloremque. Suscipit corporis blanditiis reprehenderit architecto perspiciatis corporis possimus.\nRepudiandae laudantium ullam molestias sit consequuntur fugit beatae eius illo. Dignissimos reiciendis voluptatibus itaque temporibus. Non eos sit ut sit ducimus.\nNumquam deleniti qui maxime veniam sunt qui nulla ratione autem. Molestiae voluptatem voluptate fugit repellat dolores voluptatum nobis eveniet. Quia similique modi expedita cum culpa.",
       "publisher": "Jenkins Inc",
-      "isbn": "95e07d2c-31c8-4aca-8f97-e63a33955435",
-      "favorite": false,
+      "thumbnail": "https://picsum.photos/seed/LUm7ksl/640/480",
       "tags": [
         "defiantly",
         "and"
-      ]
+      ],
+      "favorite": true
     },
     {
       "id": 27,
@@ -402,30 +224,26 @@
     {
       "id": 31,
       "title": "definition",
-      "authorId": 331,
-      "thumbnail": "https://loremflickr.com/640/480?lock=8467285771550720",
       "description": "Praesentium cumque nemo quod debitis. Nemo debitis recusandae unde cumque architecto doloremque deserunt. Facilis optio et.\nDolor deleniti suscipit asperiores ad magni cumque deleniti accusamus provident. Aspernatur explicabo iste odio sequi sed vitae alias. Facilis fuga iure voluptatum provident fuga consequuntur a.\nMagni similique est autem error. Officia sed fuga libero. Nemo accusantium esse.",
       "publisher": "Ritchie, Schulist and Braun",
-      "isbn": "7840f30a-5c51-4951-9fb3-32486ada5c11",
-      "favorite": true,
+      "thumbnail": "https://loremflickr.com/640/480?lock=8467285771550720",
       "tags": [
         "than",
         "apud",
         "luxurious"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": 33,
       "title": "likelihood",
-      "authorId": 333,
-      "thumbnail": "https://loremflickr.com/640/480?lock=4257294428667904",
       "description": "Quod labore pariatur sit fuga incidunt cupiditate. Consequuntur totam recusandae aut sed cupiditate architecto incidunt voluptas. Beatae iure nihil quae eveniet eligendi iusto nostrum doloremque.\nBeatae numquam necessitatibus voluptatem excepturi totam ipsa. Odit nobis natus consequatur blanditiis. Optio tempore hic perspiciatis accusantium quo reprehenderit quia consectetur numquam.\nInventore amet ipsa aliquid. Neque debitis repellendus non eum adipisci. Reiciendis sapiente reprehenderit sed inventore libero consequuntur eum odio.",
       "publisher": "Dach and Sons",
-      "isbn": "bc8155a0-4255-4f74-a365-79fcc87ad0fb",
-      "favorite": true,
+      "thumbnail": "https://loremflickr.com/640/480?lock=4257294428667904",
       "tags": [
         "till"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": 34,
@@ -13981,17 +13799,6 @@
       "tags": [
         "eek"
       ]
-    },
-    {
-      "id": 1005,
-      "authorId": "309",
-      "isbn": "1234",
-      "title": "test5 edited",
-      "thumbnail": "test5",
-      "description": "No description provided",
-      "publisher": "test5",
-      "tags": "drama",
-      "favorite": false
     }
   ],
   "authors": [

@@ -1,5 +1,5 @@
 // icons
-import { GrFavorite } from "react-icons/gr";
+import { MdFavoriteBorder } from "react-icons/md";
 
 // react router
 import { NavLink } from "react-router-dom";
@@ -12,10 +12,10 @@ function FavoriteBtn({}: Props) {
       <NavLink
         to="/favorites"
         className={({ isActive }) =>
-          `text-2xl ${isActive ? "bg-yellow-300" : ""}`
+          `text-2xl ${isActive ? "text-yellow-300" : ""}`
         }
       >
-        <GrFavorite />
+        <MdFavoriteBorder />
       </NavLink>
     </div>
   );

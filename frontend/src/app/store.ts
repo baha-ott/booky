@@ -15,7 +15,7 @@ export const store: any = configureStore({
     devTools: true,
 
 })
-
+// configure the store
 
 export type RootState = ReturnType<typeof store.getState>
-
+// to get the type of the state

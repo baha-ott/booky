@@ -1,6 +1,10 @@
+// react hooks
 import { useMemo, useState } from "react";
+
+// pagination
 import Pagination from "../Pagination";
 
+// books components and layouts
 import BooksLayout from "../../layouts/BooksLayout";
 import BooksList from "./BooksList";
 import BooksMainLayout from "../../layouts/BooksMainLayout";

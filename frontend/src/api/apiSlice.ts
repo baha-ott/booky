@@ -35,7 +35,7 @@ export const apiSlice = createApi({
                 method: "PUT",
                 body: book
             }),
-            invalidatesTags: ["Books"]
+    
         }),
         deleteBook: builder.mutation({
             query: (id) => ({
@@ -44,6 +44,7 @@ export const apiSlice = createApi({
             }),
             invalidatesTags: ["Books"]
         }),
+
         getAuthors: builder.query({
             query: () => '/authors',
             providesTags: ['Authors'],
