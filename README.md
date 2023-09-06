@@ -14,10 +14,10 @@ git clone https://github.com/baha-ott/booky.git
 cd frontend
 npm i
 npm run dev
-
+```
 // to run the react server
 
-
+```bash
 cd backend
 npm i
 npm run dev 
