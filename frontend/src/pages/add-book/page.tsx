@@ -44,8 +44,8 @@ const AddBookPage = () => {
         <HeadingSecondary title="Add new Book" />
         <div className="flex flex-col gap-4 mt-16 shadow-md px-4 pt-8 pb-16 rounded-md">
           <FormItems />
-          <AuthorSelector />
           <ImageInput />
+          <AuthorSelector />
           <BtnSubmitForm title="Add new Book" />
         </div>
       </Form>

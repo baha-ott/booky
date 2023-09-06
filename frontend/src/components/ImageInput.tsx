@@ -26,8 +26,13 @@ export default function ImageInput() {
   };
 
   return (
-    <div className="mb-3 form-group">
-      <label className="required">Upload Photo</label>
+    <div className="flex gap-2">
+      <label
+        htmlFor="thumbnail"
+        className="w-1/3 text-xl lg:h-1/6 xl:w-1/12 flex flex-col"
+      >
+        thumbnail
+      </label>
       <Field name="thumbnail">
         {({ form, field }: { form: any; field: any }) => {
           const { setFieldValue } = form;
