@@ -51,9 +51,13 @@ const EditBookPage = () => {
               .required("Required"),
             tags: Yup.string().required("Required"),
           })}
-          onSubmit={(values, { setSubmitting, resetForm }) => {
+          onSubmit={(values: any, { setSubmitting, resetForm }) => {
             console.log(values);
-            updateBook({ ...values, tags: (values.tags as string).split(" ") });
+            updateBook({
+              ...values,
+              tags: (values.tags as string).split(" "),
+              thumbnail: values.thumbnail_image,
+            });
             resetForm();
             setSubmitting(false);
           }}

@@ -9,10 +9,11 @@ const FORM_ITEMS = [
     placeholder: "Title",
   },
   {
-    name: "thumbnail",
-    type: "file",
-    placeholder: "upload image",
+    name: "isbn",
+    type: "text",
+    placeholder: "isbn",
   },
+
   {
     name: "description",
     type: "text",

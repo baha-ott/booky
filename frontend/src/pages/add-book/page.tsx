@@ -6,6 +6,7 @@ import BtnSubmitForm from "../../components/Form/BtnSubmitForm";
 import { nanoid } from "@reduxjs/toolkit";
 import { useAddNewBookMutation } from "../../api/apiSlice";
 import HeadingSecondary from "../../components/HeadingSecondary";
+import ImageInput from "../../components/ImageInput";
 
 const AddBookPage = () => {
   const [addNewBook] = useAddNewBookMutation();
@@ -16,7 +17,6 @@ const AddBookPage = () => {
         authorId: 1,
         isbn: "",
         title: "",
-        thumbnail: "",
         description: "",
         publisher: "",
         tags: "",
@@ -45,6 +45,7 @@ const AddBookPage = () => {
         <div className="flex flex-col gap-4 mt-16 shadow-md px-4 pt-8 pb-16 rounded-md">
           <FormItems />
           <AuthorSelector />
+          <ImageInput />
           <BtnSubmitForm title="Add new Book" />
         </div>
       </Form>
