@@ -10,18 +10,18 @@ git clone https://github.com/baha-ott/booky.git
 ```
 
 ### 2) navigate to the file then enter the following:
+ to run the react server
 ```bash 
 cd frontend
 npm i
 npm run dev
 ```
-// to run the react server
 
+to run the backend server
 ```bash
 cd backend
 npm i
 npm run dev 
-// to run the backend server
 ```
 ### Tech stack 
 * react + typescript
