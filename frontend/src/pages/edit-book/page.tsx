@@ -10,6 +10,7 @@ import {
 import HeadingSecondary from "../../components/HeadingSecondary";
 import { useParams } from "react-router-dom";
 import Loading from "../../components/Loading";
+import BtnSubmitForm from "../../components/Form/BtnSubmitForm";
 
 const EditBookPage = () => {
   const { bookId } = useParams();
@@ -19,6 +20,10 @@ const EditBookPage = () => {
     isSuccess,
     isError,
   } = useGetSingleBookQuery(bookId);
+
+  if (isError) {
+    throw new Error("something went wrong while fetching book to edit data");
+  }
 
   const [updateBook] = useUpdateBookMutation();
 
@@ -58,9 +63,8 @@ const EditBookPage = () => {
             <div className="flex flex-col gap-4 mt-16 shadow-md px-4 pt-8 pb-16 rounded-md">
               <FormItems />
               <AuthorSelector />
-              {/* <BtnAddNewBook /> */}
+              <BtnSubmitForm title="Edit book" />
             </div>
-            <button type="submit">Edit book</button>
           </Form>
         </Formik>
       )}

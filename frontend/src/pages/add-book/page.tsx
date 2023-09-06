@@ -2,7 +2,7 @@ import { Formik, Form } from "formik";
 import * as Yup from "yup";
 import FormItems from "../../components/Form/FormItems";
 import AuthorSelector from "../../components/Form/AuthorSelector";
-import BtnAddNewBook from "../../components/Form/BtnAddNewBook";
+import BtnSubmitForm from "../../components/Form/BtnSubmitForm";
 import { nanoid } from "@reduxjs/toolkit";
 import { useAddNewBookMutation } from "../../api/apiSlice";
 import HeadingSecondary from "../../components/HeadingSecondary";
@@ -45,7 +45,7 @@ const AddBookPage = () => {
         <div className="flex flex-col gap-4 mt-16 shadow-md px-4 pt-8 pb-16 rounded-md">
           <FormItems />
           <AuthorSelector />
-          <BtnAddNewBook />
+          <BtnSubmitForm title="Add new Book" />
         </div>
       </Form>
     </Formik>
