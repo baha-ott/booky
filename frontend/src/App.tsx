@@ -1,19 +1,20 @@
+// api
 import { ApiProvider } from "@reduxjs/toolkit/dist/query/react";
-import { Provider } from "react-redux";
-import { RouterProvider } from "react-router-dom";
 import { apiSlice } from "./api/apiSlice";
+// redux store
+import { Provider } from "react-redux";
 import { store } from "./app/store";
+// routing
+import { RouterProvider } from "react-router-dom";
 import { router } from "./router/routers";
 
 function App() {
   return (
-    <>
-      <ApiProvider api={apiSlice}>
-        <Provider store={store}>
-          <RouterProvider router={router} />
-        </Provider>
-      </ApiProvider>
-    </>
+    <ApiProvider api={apiSlice}>
+      <Provider store={store}>
+        <RouterProvider router={router} />
+      </Provider>
+    </ApiProvider>
   );
 }
 
