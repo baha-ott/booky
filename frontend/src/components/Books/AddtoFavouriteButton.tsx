@@ -24,7 +24,7 @@ export default function AddtoFavouriteButton({
   };
   return (
     <button onClick={handleClick} className={className}>
-      {!isFavorite ? (
+      {isFavorite ? (
         <MdFavoriteBorder className="text-red-500" />
       ) : (
         <MdFavoriteBorder />

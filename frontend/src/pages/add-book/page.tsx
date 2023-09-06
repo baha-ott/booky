@@ -31,8 +31,11 @@ const AddBookPage = () => {
           .required("Required"),
         tags: Yup.string().required("Required"),
       })}
-      onSubmit={(values: Book, { setSubmitting, resetForm }) => {
-        addNewBook({ ...values, tags: (values.tags as string).split(" ") });
+      onSubmit={(values: any, { setSubmitting, resetForm }) => {
+        addNewBook({
+          ...values,
+          tags: (values.tags as string).split(" "),
+        });
         resetForm();
         setSubmitting(false);
       }}

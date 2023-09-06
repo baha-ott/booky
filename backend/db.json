@@ -11,7 +11,7 @@
         "verbally",
         "positively"
       ],
-      "favorite": false
+      "favorite": true
     },
     {
       "id": 15,
@@ -24,7 +24,7 @@
         "sleepy",
         "finally"
       ],
-      "favorite": false
+      "favorite": true
     },
     {
       "id": 16,
@@ -37,7 +37,7 @@
         "phew",
         "yuck"
       ],
-      "favorite": false
+      "favorite": true
     },
     {
       "id": 17,
@@ -13799,6 +13799,86 @@
       "tags": [
         "eek"
       ]
+    },
+    {
+      "id": 1001,
+      "authorId": 1,
+      "isbn": "",
+      "title": "test 7",
+      "thumbnail": "C:\\fakepath\\0705.jpg",
+      "description": "description",
+      "publisher": "ffff",
+      "tags": [
+        "tag1",
+        "tag2"
+      ],
+      "favorite": false
+    },
+    {
+      "id": 1002,
+      "authorId": 1,
+      "isbn": "",
+      "title": "test 8",
+      "thumbnail": "C:\\fakepath\\1080p-Dark-Wallpaper-193.jpg",
+      "description": "test",
+      "publisher": "fsadf",
+      "tags": [
+        "tag1",
+        "tag2"
+      ],
+      "favorite": false
+    },
+    {
+      "id": 1003,
+      "authorId": 1,
+      "isbn": "",
+      "title": "ffasdfdsaf",
+      "thumbnail": "C:\\fakepath\\0705.jpg",
+      "description": "testasdf",
+      "publisher": "adsfasdfasfd",
+      "tags": [
+        "tag1"
+      ],
+      "favorite": false
+    },
+    {
+      "id": 1004,
+      "authorId": 1,
+      "isbn": "",
+      "title": "f",
+      "thumbnail": "C:\\fakepath\\1080p-Dark-Wallpaper-193.jpg",
+      "description": "f",
+      "publisher": "f",
+      "tags": [
+        "tag"
+      ],
+      "favorite": false
+    },
+    {
+      "id": 1005,
+      "authorId": 1,
+      "isbn": "",
+      "title": "f",
+      "thumbnail": "C:\\fakepath\\1080p-Dark-Wallpaper-193.jpg",
+      "description": "f",
+      "publisher": "f",
+      "tags": [
+        "f"
+      ],
+      "favorite": false
+    },
+    {
+      "id": 1006,
+      "authorId": 1,
+      "isbn": "",
+      "title": "l",
+      "thumbnail": "C:\\fakepath\\0705.jpg",
+      "description": "test",
+      "publisher": "test",
+      "tags": [
+        "tag"
+      ],
+      "favorite": false
     }
   ],
   "authors": [

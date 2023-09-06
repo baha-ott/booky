@@ -10,8 +10,8 @@ const FORM_ITEMS = [
   },
   {
     name: "thumbnail",
-    type: "text",
-    placeholder: "URL image",
+    type: "file",
+    placeholder: "upload image",
   },
   {
     name: "description",

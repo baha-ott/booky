@@ -9,6 +9,7 @@ import {
 } from "../../api/apiSlice";
 import HeadingSecondary from "../../components/HeadingSecondary";
 import { useParams } from "react-router-dom";
+import Loading from "../../components/Loading";
 
 const EditBookPage = () => {
   const { bookId } = useParams();
@@ -21,10 +22,9 @@ const EditBookPage = () => {
 
   const [updateBook] = useUpdateBookMutation();
 
-  console.log(book);
-
   return (
     <>
+      {isLoading && <Loading />}
       {isSuccess && (
         <Formik
           initialValues={{
@@ -32,7 +32,6 @@ const EditBookPage = () => {
             authorId: book.authorId,
             isbn: book.isbn,
             title: book.title,
-            thumbnail: book.thumbnail,
             description: book.description,
             publisher: book.publisher,
             tags: book.tags.join(" "),
