@@ -22,7 +22,7 @@ npm run dev
 // to run the backend server
 ```
 ### Tech stack 
-* react
+* react + typescript
 * Tailiwind CSS 
 * redux, redux-toolkit
 * react-router-dom 
