@@ -33,6 +33,7 @@ npm run dev
 
 
 # you may face some problems because of the behavior of typescript ⚠️
+# Fix it by do the following: 
 ## 1. go to the tsconfig.json file
 ## 2. change "moduleResolution": "bundler" ➡️ "moduleResolution": "node",
 
